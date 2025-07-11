@@ -24,7 +24,7 @@
     <header class="page-top">
       <div class="flex-container container">
         <nav class="main-nav">
-          <a class="head-logo" href="./index.html"
+          <a class="head-logo logo" href="./index.html"
             >Web<span class="logo-top">Studio</span></a
           >
           <ul class="main-menu">
@@ -39,7 +39,7 @@
             </li>
           </ul>
         </nav>
-        <address>
+        <address class="contacts">
           <ul class="contacts-list">
             <li>
               <a class="contacts-item" href="mailto:info@devstudio.com"
@@ -53,11 +53,16 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg width="24" height="24" class="burger-icon">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="main-action">
+      <section class="main-action hidden">
         <div class="container">
           <h1 class="main-line">Effective Solutions for Your Business</h1>
           <button class="main-action-btn" type="button" data-modal-open>
@@ -66,7 +71,7 @@
         </div>
       </section>
 
-      <section class="standarts">
+      <section class="standarts hidden">
         <div class="container">
           <h2 class="visually-hidden"></h2>
           <ul class="standarts-list">
@@ -122,7 +127,7 @@
         </div>
       </section>
 
-      <section class="team-display">
+      <section class="team-display hidden">
         <div class="container">
           <h2 class="section-header">Our Team</h2>
           <ul class="flex-team">
@@ -366,7 +371,7 @@
         </div>
       </section>
 
-      <section class="portfolio" id="portfolio">
+      <section class="portfolio hidden" id="portfolio">
         <div class="container">
           <h2 class="section-header">Our Portfolio</h2>
           <ul class="portfolio-items">
@@ -495,7 +500,7 @@
       </section>
     </main>
 
-    <footer class="bottom">
+    <footer class="bottom hidden">
       <div class="container footer-flex-container">
         <div class="footer-logo-text-box">
           <a class="footer-logo" href="./index.html"
@@ -578,7 +583,7 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay" data-modal>
+    <div class="modal-overlay hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-form-close-btn" data-modal-close>
           <svg width="8" height="8" class="modal-close-btn-icon">
