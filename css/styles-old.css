@@ -1,12 +1,3 @@
-/* address {
-  font-weight: 400;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-left: auto;
-} */
-
 .main-action {
   max-width: 1440px;
   padding: 188px 0;
@@ -16,44 +7,12 @@
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-background.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0 auto;
 }
 
 .main-line {
-  font-weight: 700;
   font-size: 56px;
-  text-align: center;
   line-height: 1.07;
-  letter-spacing: 0.02em;
-  color: #ffffff;
   max-width: 496px;
-  margin: 0 auto 48px;
-}
-
-.main-action-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
-  cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  margin: 0 auto;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.main-action-btn:hover,
-.main-action-btn:focus {
-  background-color: #404bbf;
 }
 
 /* Standarts section start */
