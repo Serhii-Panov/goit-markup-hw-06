@@ -1,55 +1,5 @@
 /* Standarts section start */
 
-.standarts {
-  padding: 120px 0;
-}
-
-.standarts-header,
-.team-members-header {
-  /* h3*/
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.standarts-list {
-  display: flex;
-  gap: 24px;
-}
-
-.standarts-list-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.standarts-list-item-icon-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 0;
-  margin-bottom: 8px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-}
-
-.standarts-list-item-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: 0;
-  padding: 0;
-  transform: translate(-50%, -50%);
-}
-
-.standarts-header {
-  margin-bottom: 8px;
-}
-
 /* Standarts section start */
 
 .section-header {
