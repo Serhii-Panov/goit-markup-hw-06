@@ -59,15 +59,6 @@
   margin-bottom: 8px;
 }
 
-.team-member-info .section-text {
-  text-align: center;
-}
-
-.team-members-socials {
-  justify-content: center;
-  display: flex;
-  gap: 24px;
-}
 .team-members-socials-item {
   display: flex;
   justify-content: center;
