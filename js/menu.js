@@ -14,5 +14,6 @@
     function togglemenu() {
       // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
       refs.menu.classList.toggle("is-open");
+      document.body.classList.toggle("scroll-lock");
     }
   })();
