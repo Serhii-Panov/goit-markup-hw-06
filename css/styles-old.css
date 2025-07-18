@@ -46,60 +46,6 @@
 
 /* =====================Footer section start=====================*/
 
-.bottom {
-  padding: 100px 0;
-}
-
-.footer-flex-container {
-  align-items: baseline;
-}
-
-.footer-logo-text-box {
-  margin-right: 120px;
-}
-
-.footer-logo {
-  line-height: 1.17;
-  display: inline-block;
-}
-
-.logo-bottom {
-  color: #f4f4fd;
-}
-
-.footer-text {
-  width: 264px;
-  margin-bottom: 16px;
-}
-
-.footer-socials-box {
-  margin-right: 80px;
-}
-
-.footer-socials-box-text {
-  margin-bottom: 16px;
-}
-
-.footer-socials-box-list-link {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-socials-box-list-link:hover,
-.footer-socials-box-list-link:focus {
-  background-color: #31d0aa;
-}
-
-.bottom-subscribe-form {
-  gap: 24px;
-}
-.bottom-subscribe-text {
-  margin-bottom: 16px;
-}
-
-.bottom-subscribe-form-input {
-  width: 264px;
-}
-
 /* =====================Footer section end=====================*/
 
 /* =====================Modal section start=====================*/
