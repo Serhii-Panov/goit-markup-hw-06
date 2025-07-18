@@ -53,15 +53,15 @@
             </li>
           </ul>
         </address>
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg width="24" height="24" class="burger-icon">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
       <menu>
-        <div class="mobile-menu container">
-          <button type="button" class="mobile-menu-close-btn" data-modal-close>
+        <div class="mobile-menu container" data-menu>
+          <button type="button" class="mobile-menu-close-btn" data-menu-close>
             <svg width="8" height="8" class="modal-close-btn-icon">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -74,7 +74,7 @@
                 >
               </li>
               <li>
-                <a class="mobile-nav-list-item" href="#portfolio.html"
+                <a class="mobile-nav-list-item" href="#" 
                   >Portfolio</a
                 >
               </li>
@@ -699,7 +699,7 @@
           </div>
       </div>
     </footer>
-    <div class="modal-overlay hidden" data-modal>
+    <div class="modal-overlay" data-modal>
       <div class="modal">
         <button type="button" class="modal-form-close-btn" data-modal-close>
           <svg width="8" height="8" class="modal-close-btn-icon">
@@ -794,5 +794,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
